@@ -122,7 +122,7 @@ namespace Project1 {
 		for (int i = 0; i < rows; i++) {
 			arr[i] = new int[cols];
 			for (int j = 0; j < cols; j++) {
-				arr[i][j] = rand() % 21 - 10;
+				arr[i][j] = rand() % 100 - 50;
 			}
 		}
 
